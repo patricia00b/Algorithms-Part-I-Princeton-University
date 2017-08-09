@@ -9,7 +9,6 @@ import edu.princeton.cs.algs4.QuickFindUF;
 public class Percolation {
 	private QuickFindUF id; // id[r][c] = component identifier of i
 	private int[][] status;
-	private int sitenumber = 1; // number of components
 	private int opensites = 0;
 	private int n;
 
@@ -31,7 +30,6 @@ public class Percolation {
 	    for (int r = 0; r < n; r++) {
 	        for (int c = 0; c < n; c++) {
 	            status[r][c] = 0; // 0 represents the site closed
-	            sitenumber++;
 	        }
 	    }
 	}
@@ -132,3 +130,14 @@ public class Percolation {
 	public static void main(String[] args) {
 	}
 }
+
+
+
+
+
+
+
+
+
+
+

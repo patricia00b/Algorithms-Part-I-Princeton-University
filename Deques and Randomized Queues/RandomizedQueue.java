@@ -82,11 +82,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 		return new RandomQueueIterator();
 	}
 	
-	/*
-	 * PRIVATE INNER CLASSES
-	 */
-	
-	// Iterator for RandomizedQueue
 	private class RandomQueueIterator implements Iterator<Item>
 	{
 		private int i = 0;
